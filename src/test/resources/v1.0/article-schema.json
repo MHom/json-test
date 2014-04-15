@@ -1,0 +1,309 @@
+{"type": "object", "$schema": "http://json-schema.org/draft-03/schema", "id": "http://jsonschema.net", "required": false, "properties": {
+    "content": {
+        "type": "object",
+        "id": "http://jsonschema.net/content",
+        "required": false,
+        "properties": {
+            "Canonical-URL": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Canonical-URL",
+                "required": false
+            },
+            "Dokumententyp": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Dokumententyp",
+                "required": false
+            },
+            "ID": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/ID",
+                "required": false
+            },
+            "Kurz-URL": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Kurz-URL",
+                "required": false
+            },
+            "Links": {
+                "type": "object",
+                "id": "http://jsonschema.net/content/Links",
+                "required": false,
+                "properties": {
+                    "Anzahl": {
+                        "type": "number",
+                        "id": "http://jsonschema.net/content/Links/Anzahl",
+                        "required": false
+                    },
+                    "Link1": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/content/Links/Link1",
+                        "required": false,
+                        "properties": {
+                            "Titel": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link1/Titel",
+                                "required": false
+                            },
+                            "URL": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link1/URL",
+                                "required": false
+                            }
+                        }
+                    },
+                    "Link2": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/content/Links/Link2",
+                        "required": false,
+                        "properties": {
+                            "Titel": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link2/Titel",
+                                "required": false
+                            },
+                            "URL": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link2/URL",
+                                "required": false
+                            }
+                        }
+                    },
+                    "Link3": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/content/Links/Link3",
+                        "required": false,
+                        "properties": {
+                            "Titel": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link3/Titel",
+                                "required": false
+                            },
+                            "URL": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link3/URL",
+                                "required": false
+                            }
+                        }
+                    },
+                    "Link4": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/content/Links/Link4",
+                        "required": false,
+                        "properties": {
+                            "Titel": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link4/Titel",
+                                "required": false
+                            },
+                            "URL": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link4/URL",
+                                "required": false
+                            }
+                        }
+                    },
+                    "Link5": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/content/Links/Link5",
+                        "required": false,
+                        "properties": {
+                            "Titel": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link5/Titel",
+                                "required": false
+                            },
+                            "URL": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link5/URL",
+                                "required": false
+                            }
+                        }
+                    },
+                    "Link6": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/content/Links/Link6",
+                        "required": false,
+                        "properties": {
+                            "Titel": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link6/Titel",
+                                "required": false
+                            },
+                            "URL": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link6/URL",
+                                "required": false
+                            }
+                        }
+                    },
+                    "Link7": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/content/Links/Link7",
+                        "required": false,
+                        "properties": {
+                            "Titel": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link7/Titel",
+                                "required": false
+                            },
+                            "URL": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/content/Links/Link7/URL",
+                                "required": false
+                            }
+                        }
+                    }
+                }
+            },
+            "Publikationsdatum": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Publikationsdatum",
+                "required": false
+            },
+            "Quelle": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Quelle",
+                "required": false
+            },
+            "Rubriken-ID": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Rubriken-ID",
+                "required": false
+            },
+            "Rubrikenpfad": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Rubrikenpfad",
+                "required": false
+            },
+            "Stichwort": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Stichwort",
+                "required": false
+            },
+            "Teaserbild": {
+                "type": "object",
+                "id": "http://jsonschema.net/content/Teaserbild",
+                "required": false,
+                "properties": {
+                    "Bild-Beschreibung": {
+                        "type": "string",
+                        "id": "http://jsonschema.net/content/Teaserbild/Bild-Beschreibung",
+                        "required": false
+                    },
+                    "Bild-Ueberschrift": {
+                        "type": "string",
+                        "id": "http://jsonschema.net/content/Teaserbild/Bild-Ueberschrift",
+                        "required": false
+                    },
+                    "Bild-Unterschrift": {
+                        "type": "string",
+                        "id": "http://jsonschema.net/content/Teaserbild/Bild-Unterschrift",
+                        "required": false
+                    },
+                    "Breite": {
+                        "type": "number",
+                        "id": "http://jsonschema.net/content/Teaserbild/Breite",
+                        "required": false
+                    },
+                    "Fotoquelle": {
+                        "type": "string",
+                        "id": "http://jsonschema.net/content/Teaserbild/Fotoquelle",
+                        "required": false
+                    },
+                    "Hoehe": {
+                        "type": "number",
+                        "id": "http://jsonschema.net/content/Teaserbild/Hoehe",
+                        "required": false
+                    },
+                    "Titel": {
+                        "type": "string",
+                        "id": "http://jsonschema.net/content/Teaserbild/Titel",
+                        "required": false
+                    },
+                    "URL": {
+                        "type": "string",
+                        "id": "http://jsonschema.net/content/Teaserbild/URL",
+                        "required": false
+                    }
+                }
+            },
+            "Teasertext": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Teasertext",
+                "required": false
+            },
+            "URL": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/URL",
+                "required": false
+            },
+            "Ueberschrift-Kurz": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Ueberschrift-Kurz",
+                "required": false
+            },
+            "Ueberschrift": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Ueberschrift",
+                "required": false
+            },
+            "VG-Wort-Tag": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/VG-Wort-Tag",
+                "required": false
+            },
+            "VeroeffentlichungsdatumAusblenden": {
+                "type": "boolean",
+                "id": "http://jsonschema.net/content/VeroeffentlichungsdatumAusblenden",
+                "required": false
+            },
+            "Veroeffentlichungsdatum": {
+                "type": "number",
+                "id": "http://jsonschema.net/content/Veroeffentlichungsdatum",
+                "required": false
+            },
+            "Volltext": {
+                "type": "string",
+                "id": "http://jsonschema.net/content/Volltext",
+                "required": false
+            }
+        }
+    },
+    "getsMarker": {
+        "type": "object",
+        "id": "http://jsonschema.net/getsMarker",
+        "required": false,
+        "properties": {
+            "cc": {
+                "type": "string",
+                "id": "http://jsonschema.net/getsMarker/cc",
+                "required": false
+            },
+            "ci": {
+                "type": "string",
+                "id": "http://jsonschema.net/getsMarker/ci",
+                "required": false
+            },
+            "cn": {
+                "type": "string",
+                "id": "http://jsonschema.net/getsMarker/cn",
+                "required": false
+            },
+            "cp": {
+                "type": "string",
+                "id": "http://jsonschema.net/getsMarker/cp",
+                "required": false
+            },
+            "ct": {
+                "type": "string",
+                "id": "http://jsonschema.net/getsMarker/ct",
+                "required": false
+            },
+            "id": {
+                "type": "string",
+                "id": "http://jsonschema.net/getsMarker/id",
+                "required": false
+            }
+        }
+    }
+}}

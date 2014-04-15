@@ -1,0 +1,550 @@
+{
+    "type":"object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "http://www.faz.net",
+    "required":true,
+    "properties":{
+        "JSON-Version": {
+            "type":"string",
+            "id": "http://www.faz.net/JSON-Version",
+            "required":true
+        },
+        "content": {
+            "type":"object",
+            "id": "http://www.faz.net/content",
+            "required":true,
+            "properties":{
+                "Aufmacherbild": {
+                    "type":"object",
+                    "id": "http://www.faz.net/content/Aufmacherbild",
+                    "required":true,
+                    "properties":{
+                        "Bild-Beschreibung": {
+                            "type":"string",
+                            "id": "http://www.faz.net/content/Aufmacherbild/Bild-Beschreibung",
+                            "required":true
+                        },
+                        "Bild-Ueberschrift": {
+                            "type":"string",
+                            "id": "http://www.faz.net/content/Aufmacherbild/Bild-Ueberschrift",
+                            "required":true
+                        },
+                        "Bild-Unterschrift": {
+                            "type":"string",
+                            "id": "http://www.faz.net/content/Aufmacherbild/Bild-Unterschrift",
+                            "required":true
+                        },
+                        "Breite": {
+                            "type":"number",
+                            "id": "http://www.faz.net/content/Aufmacherbild/Breite",
+                            "required":true
+                        },
+                        "Fotoquelle": {
+                            "type":"string",
+                            "id": "http://www.faz.net/content/Aufmacherbild/Fotoquelle",
+                            "required":true
+                        },
+                        "Hoehe": {
+                            "type":"number",
+                            "id": "http://www.faz.net/content/Aufmacherbild/Hoehe",
+                            "required":true
+                        },
+                        "Titel": {
+                            "type":"string",
+                            "id": "http://www.faz.net/content/Aufmacherbild/Titel",
+                            "required":true
+                        },
+                        "URL": {
+                            "type":"string",
+                            "id": "http://www.faz.net/content/Aufmacherbild/URL",
+                            "required":true
+                        }
+                    }
+                },
+                "Bilder": {
+                    "type":"object",
+                    "id": "http://www.faz.net/content/Bilder",
+                    "required":false,
+                    "properties":{
+                        "Anzahl": {
+                            "type":"number",
+                            "id": "http://www.faz.net/content/Bilder/Anzahl",
+                            "required":true
+                        },
+                        "Bild1": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Bilder/Bild1",
+                            "required":true,
+                            "properties":{
+                                "Bild-Beschreibung": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild1/Bild-Beschreibung",
+                                    "required":true
+                                },
+                                "Bild-Ueberschrift": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild1/Bild-Ueberschrift",
+                                    "required":true
+                                },
+                                "Bild-Unterschrift": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild1/Bild-Unterschrift",
+                                    "required":true
+                                },
+                                "Breite": {
+                                    "type":"number",
+                                    "id": "http://www.faz.net/content/Bilder/Bild1/Breite",
+                                    "required":true
+                                },
+                                "Fotoquelle": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild1/Fotoquelle",
+                                    "required":true
+                                },
+                                "Hoehe": {
+                                    "type":"number",
+                                    "id": "http://www.faz.net/content/Bilder/Bild1/Hoehe",
+                                    "required":true
+                                },
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild1/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild1/URL",
+                                    "required":true
+                                }
+                            }
+                        },
+                        "Bild2": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Bilder/Bild2",
+                            "required":true,
+                            "properties":{
+                                "Bild-Beschreibung": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild2/Bild-Beschreibung",
+                                    "required":true
+                                },
+                                "Bild-Ueberschrift": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild2/Bild-Ueberschrift",
+                                    "required":true
+                                },
+                                "Bild-Unterschrift": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild2/Bild-Unterschrift",
+                                    "required":true
+                                },
+                                "Breite": {
+                                    "type":"number",
+                                    "id": "http://www.faz.net/content/Bilder/Bild2/Breite",
+                                    "required":true
+                                },
+                                "Fotoquelle": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild2/Fotoquelle",
+                                    "required":true
+                                },
+                                "Hoehe": {
+                                    "type":"number",
+                                    "id": "http://www.faz.net/content/Bilder/Bild2/Hoehe",
+                                    "required":true
+                                },
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild2/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild2/URL",
+                                    "required":true
+                                }
+                            }
+                        },
+                        "Bild3": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Bilder/Bild3",
+                            "required":true,
+                            "properties":{
+                                "Bild-Beschreibung": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild3/Bild-Beschreibung",
+                                    "required":true
+                                },
+                                "Bild-Ueberschrift": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild3/Bild-Ueberschrift",
+                                    "required":true
+                                },
+                                "Bild-Unterschrift": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild3/Bild-Unterschrift",
+                                    "required":true
+                                },
+                                "Breite": {
+                                    "type":"number",
+                                    "id": "http://www.faz.net/content/Bilder/Bild3/Breite",
+                                    "required":true
+                                },
+                                "Fotoquelle": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild3/Fotoquelle",
+                                    "required":true
+                                },
+                                "Hoehe": {
+                                    "type":"number",
+                                    "id": "http://www.faz.net/content/Bilder/Bild3/Hoehe",
+                                    "required":true
+                                },
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild3/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild3/URL",
+                                    "required":true
+                                }
+                            }
+                        },
+                        "Bild4": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Bilder/Bild4",
+                            "required":true,
+                            "properties":{
+                                "Bild-Beschreibung": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild4/Bild-Beschreibung",
+                                    "required":true
+                                },
+                                "Bild-Ueberschrift": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild4/Bild-Ueberschrift",
+                                    "required":true
+                                },
+                                "Bild-Unterschrift": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild4/Bild-Unterschrift",
+                                    "required":true
+                                },
+                                "Breite": {
+                                    "type":"number",
+                                    "id": "http://www.faz.net/content/Bilder/Bild4/Breite",
+                                    "required":true
+                                },
+                                "Fotoquelle": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild4/Fotoquelle",
+                                    "required":true
+                                },
+                                "Hoehe": {
+                                    "type":"number",
+                                    "id": "http://www.faz.net/content/Bilder/Bild4/Hoehe",
+                                    "required":true
+                                },
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild4/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Bilder/Bild4/URL",
+                                    "required":true
+                                }
+                            }
+                        }
+                    }
+                },
+                "Canonical-URL": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Canonical-URL",
+                    "required":true
+                },
+                "Dokumententyp": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Dokumententyp",
+                    "required":true
+                },
+                "ID": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/ID",
+                    "required":true
+                },
+                "Kurz-URL": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Kurz-URL",
+                    "required":true
+                },
+                "Links": {
+                    "type":"object",
+                    "id": "http://www.faz.net/content/Links",
+                    "required":true,
+                    "properties":{
+                        "Anzahl": {
+                            "type":"number",
+                            "id": "http://www.faz.net/content/Links/Anzahl",
+                            "required":true
+                        },
+                        "Link1": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Links/Link1",
+                            "required":true,
+                            "properties":{
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link1/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link1/URL",
+                                    "required":true
+                                }
+                            }
+                        },
+                        "Link2": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Links/Link2",
+                            "required":true,
+                            "properties":{
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link2/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link2/URL",
+                                    "required":true
+                                }
+                            }
+                        },
+                        "Link3": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Links/Link3",
+                            "required":true,
+                            "properties":{
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link3/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link3/URL",
+                                    "required":true
+                                }
+                            }
+                        },
+                        "Link4": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Links/Link4",
+                            "required":true,
+                            "properties":{
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link4/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link4/URL",
+                                    "required":true
+                                }
+                            }
+                        },
+                        "Link5": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Links/Link5",
+                            "required":true,
+                            "properties":{
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link5/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link5/URL",
+                                    "required":true
+                                }
+                            }
+                        },
+                        "Link6": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Links/Link6",
+                            "required":true,
+                            "properties":{
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link6/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link6/URL",
+                                    "required":true
+                                }
+                            }
+                        },
+                        "Link7": {
+                            "type":"object",
+                            "id": "http://www.faz.net/content/Links/Link7",
+                            "required":true,
+                            "properties":{
+                                "Titel": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link7/Titel",
+                                    "required":true
+                                },
+                                "URL": {
+                                    "type":"string",
+                                    "id": "http://www.faz.net/content/Links/Link7/URL",
+                                    "required":true
+                                }
+                            }
+                        }
+                    }
+                },
+                "Publikationsdatum": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Publikationsdatum",
+                    "required":true
+                },
+                "Quelle": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Quelle",
+                    "required":true
+                },
+                "Rubriken-ID": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Rubriken-ID",
+                    "required":true
+                },
+                "Rubrikenpfad": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Rubrikenpfad",
+                    "required":true
+                },
+                "Schlagworte": {
+                    "type":"array",
+                    "id": "http://www.faz.net/content/Schlagworte",
+                    "required":true,
+                    "items":
+                    {
+                        "type":"object",
+                        "id": "http://www.faz.net/content/Schlagworte/0",
+                        "required":true,
+                        "properties":{
+                            "Firmen": {
+                                "type":"string",
+                                "id": "http://www.faz.net/content/Schlagworte/0/Firmen",
+                                "required":true
+                            },
+                            "Laendercode": {
+                                "type":"string",
+                                "id": "http://www.faz.net/content/Schlagworte/0/Laendercode",
+                                "required":true
+                            },
+                            "Personen": {
+                                "type":"string",
+                                "id": "http://www.faz.net/content/Schlagworte/0/Personen",
+                                "required":true
+                            }
+                        }
+                    }
+
+
+                },
+                "Stichwort": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Stichwort",
+                    "required":true
+                },
+                "Teasertext": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Teasertext",
+                    "required":true
+                },
+                "URL": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/URL",
+                    "required":true
+                },
+                "Ueberschrift-Kurz": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Ueberschrift-Kurz",
+                    "required":true
+                },
+                "Ueberschrift": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Ueberschrift",
+                    "required":true
+                },
+                "VG-Wort-Tag": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/VG-Wort-Tag",
+                    "required":true
+                },
+                "VeroeffentlichungsdatumAusblenden": {
+                    "type":"boolean",
+                    "id": "http://www.faz.net/content/VeroeffentlichungsdatumAusblenden",
+                    "required":true
+                },
+                "Veroeffentlichungsdatum": {
+                    "type":"number",
+                    "id": "http://www.faz.net/content/Veroeffentlichungsdatum",
+                    "required":true
+                },
+                "Volltext": {
+                    "type":"string",
+                    "id": "http://www.faz.net/content/Volltext",
+                    "required":true
+                }
+            }
+        },
+        "getsMarker": {
+            "type":"object",
+            "id": "http://www.faz.net/getsMarker",
+            "required":true,
+            "properties":{
+                "cc": {
+                    "type":"string",
+                    "id": "http://www.faz.net/getsMarker/cc",
+                    "required":true
+                },
+                "ci": {
+                    "type":"string",
+                    "id": "http://www.faz.net/getsMarker/ci",
+                    "required":true
+                },
+                "cn": {
+                    "type":"string",
+                    "id": "http://www.faz.net/getsMarker/cn",
+                    "required":true
+                },
+                "cp": {
+                    "type":"string",
+                    "id": "http://www.faz.net/getsMarker/cp",
+                    "required":true
+                },
+                "ct": {
+                    "type":"string",
+                    "id": "http://www.faz.net/getsMarker/ct",
+                    "required":true
+                },
+                "id": {
+                    "type":"string",
+                    "id": "http://www.faz.net/getsMarker/id",
+                    "required":true
+                }
+            }
+        }
+    }
+}
